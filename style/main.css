@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.7%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 200vh;
+}
+
+section img {
+  position: fixed;
+  margin-top: 50px;
+  z-index: 2;
+  left: calc(50% - 75px);
+}
+
+section .capitulo_titulo {
+  padding: 1px;
+  position: fixed;
+  width: 50%;
+  left: 0;
+  min-height: 100vh;
+  background-color: #f1c2ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .capitulo_titulo .titulo {
+  width: 100%;
+}
+
+section .capitulo_titulo .titulo h2 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+  font-weight: 400;
+}
+
+section .capitulo_contenido {
+  padding: 1px;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  min-height: 100vh;
+  background-color: #fdfdfa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .capitulo_contenido .contenido {
+  width: 60%;
+}
+
+section .capitulo_contenido .contenido .subtitulo p, section .capitulo_contenido .contenido .certi .subtitulo p {
+  margin-top: 50px;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-justify: inter-word;
+  max-width: 400px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+section .capitulo_contenido .contenido .bio p, section .capitulo_contenido .contenido .certi p {
+  margin-top: 10px;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-justify: inter-word;
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+
+section .capitulo_contenido .contenido .certi .firma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .capitulo_contenido .contenido .certi .firma img {
+  position: static;
+  margin-top: 0px;
+}
+
+.parrafito {
+  width: 50;
+}
+/*# sourceMappingURL=main.css.map */
