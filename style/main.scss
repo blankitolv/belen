@@ -19,9 +19,9 @@ section {
     }
     .capitulo_titulo {
         padding: 1px;
-        position:fixed;
+        position:sticky;
+        top: 0;
         width: 50%;
-        left:0;
         min-height: 100vh;
         background-color: rgb(241, 194, 255);
         display: flex;
